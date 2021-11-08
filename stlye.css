@@ -1,0 +1,741 @@
+.logo {
+  float: left;
+  width: 60%;
+}
+
+.logo img {
+  padding: 10px;
+}
+
+.navigationflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.navitemcss {
+  margin: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.navitemcss a {
+  color: rgb(0, 0, 0);
+}
+.navitemcss:hover {
+  background-color: rgb(255, 123, 0);
+  border-color: rgb(255, 123, 0);
+}
+
+.navitemcss a:hover {
+  color: white;
+}
+.crouseltext {
+  background-color: rgb(252, 252, 252, 0.7);
+  color: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(228, 228, 228);
+}
+
+.about h4,
+.mission h4,
+.vision h4,
+.values h4,
+.service h4,
+.team h4 {
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+}
+
+.aboutcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.aboutcontent span {
+  width: 20px;
+}
+.aboutcontent div {
+  padding: 35px;
+}
+
+.main {
+  background-image: url(https://source.unsplash.com/800x600/?fastfood,food);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px;
+}
+
+.main .main_content {
+  padding-top: 9%;
+  margin-right: 10%;
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.main .main_content h2 {
+  color: black;
+  font-size: 50px;
+  font-family: cosmic, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 40px;
+}
+
+.main .main_content h2 span {
+  font-size: 20px;
+  opacity: 0.9;
+  font-weight: lighter;
+}
+
+.main .main_content .btn {
+  margin-top: 50px;
+}
+
+.main .main_content .btn a {
+  text-decoration: none;
+  margin: 50px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-family: cosmic, sans-serif;
+  border: 2px solid white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.main .main_content .btn a:hover {
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(255, 123, 0);
+  transition: 0.5s;
+}
+
+.products {
+  padding: 50px;
+}
+
+.products h2 {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+}
+
+.products .product_container {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.products .product_container .item {
+  width: 25%;
+  margin: 10px;
+  height: auto;
+}
+
+.products .product_container .item:hover {
+  box-shadow: 0px 3px 65px 0px rgb(0, 0, 0, 0.3);
+}
+
+.products .product_container .item .item_img {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.products .product_container .item .item_img img {
+  width: 100%;
+  height: 250px;
+}
+
+.products .product_container .item .item_content {
+  text-align: center;
+}
+
+.products .product_container .item .item_content h2 {
+  padding: 10px;
+  font-size: 25px;
+  font-family: cosic, sans-serif;
+}
+.products .product_container .item .item_content p {
+  padding: 10px;
+  font-size: 15px;
+  font-family: cosic, sans-serif;
+}
+
+.products .product_container .item .item_content a {
+  text-decoration: none;
+  align-items: center;
+  margin: 50px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-family: cosmic, sans-serif;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.products .product_container .item .item_content a:hover {
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(255, 123, 0);
+  transition: 0.5s;
+}
+
+.products .product_btn {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.products .product_btn a {
+  text-decoration: none;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-family: cosmic, sans-serif;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.products .product_btn a:hover {
+  background-color: white;
+  color: rgb(255, 123, 0);
+  border: none;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(255, 123, 0);
+  transition: 0.5s;
+}
+
+.keypoint {
+  padding: 50px;
+}
+
+.keypoint h2 {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+}
+
+.keypoint .key_container {
+  display: flex;
+}
+
+.keypoint .key_container .key_content {
+  width: 40%;
+  padding: 40px;
+  float: left;
+}
+
+.keypoint .key_container .key_content li {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  border-left: 2px solid rgb(255, 123, 0);
+  color: black;
+  text-align: left;
+  font-family: cosmic, sans-serif;
+  box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.2);
+}
+
+.keypoint .key_container .key_img {
+  width: 40%;
+  float: right;
+  margin-left: 100px;
+}
+
+.keypoint .key_container .key_img img {
+  width: 100%;
+}
+
+.testi {
+  padding: 50px;
+}
+
+.testi h2 {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.testi .testi_container {
+  margin-right: 10%;
+  margin: 10%;
+  text-align: center;
+}
+.testi .testi_container .crousel-inner {
+  background-color: white;
+  box-shadow: none;
+}
+.testi .testi_container .item {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: none;
+}
+
+.testi .testi_container .item .item_img {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+
+.testi .testi_container .item .item_img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.testi .testi_container .item .item_content {
+  text-align: center;
+}
+.testi .testi_container .item .item_content h2 {
+  padding: 10px;
+  font-size: 25px;
+  font-family: cosic, sans-serif;
+}
+.testi .testi_container .item .item_content p {
+  padding: 10px;
+  font-size: 15px;
+  font-family: cosic, sans-serif;
+}
+
+.team {
+  padding: 50px;
+}
+
+.team h2 {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.team .team_container {
+  display: flex;
+}
+
+.team .team_container .team_video {
+  width: 40%;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.team .team_container .team_video video {
+  width: 100%;
+  border: 10px solid rgb(255, 123, 0);
+  outline: none;
+}
+
+.team .team_container .team_content {
+  width: 50%;
+  padding: 20px;
+  margin-left: 30px;
+}
+
+.team .team_container .team_content p {
+  padding: 10px;
+  font-size: 15px;
+  font-family: cosmic, sans-serif;
+}
+
+.feed {
+  background-image: url("blue.jpg");
+  background-size: cover;
+}
+
+.feed h2 {
+  color: white;
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.feed .feed_form {
+  text-align: center;
+}
+
+.feed .feed_form form {
+  padding: 20px;
+}
+
+.feed .feed_form form input {
+  width: 30%;
+  margin: 10px;
+  padding: 8px;
+  outline: none;
+  border: none;
+}
+.feed .feed_form form textarea {
+  width: 30%;
+  margin: 10px;
+  padding: 8px;
+  outline: none;
+  border: none;
+}
+
+.feed .feed_form form button {
+  width: 30%;
+  margin: 8px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(255, 123, 0);
+  color: white;
+  border-radius: 5px;
+}
+
+.feed .feed_form form button:hover {
+  background-color: white;
+  color: rgb(255, 123, 0);
+}
+
+.about_us {
+  padding: 100px;
+}
+
+.about_us h2 {
+  color: black;
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: cosmic, sans-serif;
+  text-transform: uppercase;
+}
+
+.about_us p {
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+  font-family: cosic, sans-serif;
+}
+
+.contact_container {
+  padding: 100px;
+}
+
+.contact_container h2 {
+  color: black;
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: cosmic, sans-serif;
+  text-transform: uppercase;
+}
+
+.contact_container .g_map {
+  border: 10px solid rgb(255, 123, 0);
+}
+
+.contact_container .contact_content p {
+  padding: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: cosic, sans-serif;
+}
+
+footer {
+  background-color: rgb(231, 231, 231);
+  padding: 50px;
+}
+
+footer .pages {
+  text-align: center;
+}
+
+footer .pages h3 {
+  color: black;
+  font-size: 20px;
+  font-family: cosmic, sans-serif;
+  padding: 5px;
+}
+
+footer .pages a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 15px;
+  color: rgb(255, 123, 0);
+  font-family: cosmic, sans-serif;
+}
+footer .pages a:hover {
+  color: white;
+}
+
+footer .doc {
+  text-align: center;
+}
+
+footer .doc h3 {
+  color: black;
+  font-size: 20px;
+  font-family: cosmic, sans-serif;
+  padding: 5px;
+}
+
+footer .doc a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 15px;
+  color: rgb(255, 123, 0);
+  font-family: cosmic, sans-serif;
+}
+footer .doc a:hover {
+  color: white;
+}
+
+footer .social {
+  text-align: center;
+}
+
+footer .social h3 {
+  color: black;
+  font-size: 20px;
+  font-family: cosmic, sans-serif;
+  padding: 5px;
+}
+
+footer .social a {
+  margin: 10px;
+  font-size: 25px;
+  color: rgb(255, 123, 0);
+}
+footer .social a:hover {
+  color: white;
+}
+
+footer .contact {
+  text-align: center;
+}
+
+footer .contact h3 {
+  color: black;
+  font-size: 20px;
+  font-family: cosmic, sans-serif;
+  padding: 5px;
+}
+
+footer .contact a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 25px;
+  color: rgb(255, 123, 0);
+  font-family: cosmic, sans-serif;
+}
+footer .contact a:hover {
+  color: white;
+}
+
+/* 
+
+added css */
+.header-blue {
+  background: linear-gradient(150deg, orange, green);
+  background-color: #184e8e;
+  padding-top: 100px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@media (max-width: 810px) {
+  .header-blue {
+    padding-top: 100px;
+  }
+
+  .intro p {
+    text-align: 2;
+  }
+
+  .intro h1 {
+    padding-bottom: 20px;
+  }
+  .iphone-mockup img {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-blue {
+    padding-top: 100px;
+  }
+
+  .iphone-mockup img {
+    display: none;
+  }
+}
+
+.intro {
+  width: 500px;
+  height: 500px;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* 
+mission vison and values */
+
+.center {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container .card {
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.container .card .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.7s;
+  z-index: 1;
+}
+
+.container .card:nth-child(1) .icon {
+  background: #e07768;
+}
+
+.container .card:nth-child(2) .icon {
+  background: #6eadd4;
+}
+
+.container .card:nth-child(3) .icon {
+  background: #4aada9;
+}
+
+.container .card .icon .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.7s;
+  color: #fff;
+}
+
+.container i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.7s;
+  color: #fff;
+}
+
+.container .card .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1 {
+  background: #ff0057;
+  transform: translateY(0px);
+}
+
+.container .card .face.face1 .content {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card .face.face1 .content i {
+  max-width: 100px;
+}
+
+.container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #414141;
+}
+
+.container .card .face.face2 .content h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  color: #414141;
+}
+
+.container a {
+  text-decoration: none;
+  color: #414141;
+}
